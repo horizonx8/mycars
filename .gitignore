@@ -1,0 +1,40 @@
+# Database — don't commit personal car data
+mycars.db
+*.db-journal
+
+# Uploaded photos
+backend/images/
+images/
+
+# Environment variables
+.env
+.env.local
+
+# API keys / sensitive files
+*.xlsx
+key.xlsx
+API.txt
+
+# Python
+__pycache__/
+*.pyc
+backend/venv/
+venv/
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/

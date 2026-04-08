@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-vite@latest . --template react)",
+      "Bash(where node:*)",
+      "Bash(where npm:*)",
+      "Read(//c//**)",
+      "Read(//c/Program Files/**)",
+      "Read(//c/Users/denis/**)",
+      "Bash(cmd.exe /c \"where node\" 2>&1)",
+      "Bash(cmd.exe /c \"node --version\")",
+      "Bash(cmd.exe /c \"npm --version\")",
+      "Bash(powershell.exe -NoProfile -Command \"node --version; npm --version\" 2>&1)",
+      "Bash(powershell.exe -NoProfile -Command \"winget install OpenJS.NodeJS.LTS --accept-package-agreements --accept-source-agreements\" 2>&1)",
+      "Bash(export PATH=\"/c/Program Files/nodejs:$PATH\")",
+      "Bash(npm --version)",
+      "Bash(npx create-vite@latest . --template react --force)",
+      "Bash(node -e \":*)",
+      "Bash(npm install:*)",
+      "Bash(sort echo:*)",
+      "Bash(timeout 8 npm run dev)",
+      "Skill(claude-api)",
+      "Bash(\"/c/Program Files/nodejs/npm\" install @anthropic-ai/sdk)",
+      "Bash(\"/c/Program Files/nodejs/npm\" run build)",
+      "Bash(PATH=\"/c/Program Files/nodejs:$PATH\" npm run build)",
+      "Bash(python3:*)"
+    ]
+  }
+}

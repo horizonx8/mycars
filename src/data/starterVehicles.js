@@ -1,0 +1,40 @@
+import { v4 as uuidv4 } from 'uuid'
+
+export const STARTER_VEHICLES = [
+  {
+    id: uuidv4(),
+    year: 2012,
+    make: 'Honda',
+    model: 'Odyssey',
+    trim: 'EX',
+    color: 'Silver',
+    vin: '5FNRL5H60CB117944',
+    license: 'BDR5508',
+    currentMileage: 185000,
+    engine: 'V6',
+  },
+  {
+    id: uuidv4(),
+    year: 2014,
+    make: 'Honda',
+    model: 'CR-V',
+    trim: '',
+    color: '',
+    vin: '',
+    license: '',
+    currentMileage: 0,
+    engine: 'V6',
+  },
+  {
+    id: uuidv4(),
+    year: 2019,
+    make: 'Honda',
+    model: 'Accord',
+    trim: '',
+    color: '',
+    vin: '',
+    license: '',
+    currentMileage: 0,
+    engine: '4cyl',
+  },
+]
